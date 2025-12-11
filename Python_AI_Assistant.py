@@ -6,7 +6,7 @@ import requests
 # Initialize recognizer and pyttsx3 engine
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
-newsapi = "58277137998d46e280854f82a816f63d"  # Your API key
+newsapi = "your_api_key"  # Your API key
 
 def speak(text):
     """Convert text to speech."""
@@ -117,3 +117,4 @@ if __name__ == "__main__":
             print(f"Speech recognition error: {e}")
         except Exception as e:
             print(f"Error: {e}")
+
